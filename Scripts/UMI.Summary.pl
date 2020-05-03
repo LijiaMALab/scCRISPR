@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-#Informatic Biology departments of Beijing Genomics Institute (BGI) 
 use strict;
 use luzhk;
 use Getopt::Long;
@@ -7,7 +6,7 @@ my %opts;
 
 GetOptions(\%opts, "d:s","bait:s","help!");
 if (@ARGV != 2) {
-	print "usage: .pl TaoH1TActivation.csv out
+	print "usage: .pl Gene-Barcode_matrix(.csv from cellranger) out
 		-d	distance
 		-f	filetype
 		\n";
