@@ -1,5 +1,4 @@
 #!/usr/bin/perl
-#Informatic Biology departments of Beijing Genomics Institute (BGI) 
 use strict;
 use luzhk;
 use Getopt::Long;
@@ -7,7 +6,7 @@ my %opts;
 
 GetOptions(\%opts, "p:f","f:s","help!");
 if (@ARGV != 3) {
-	print "usage: .pl TaoH1TActivation.barcode.summary TaoH1TActivation.csv.W.cellbarcode out
+	print "usage: .pl *.barcode.summary *cellbarcode out
 		-p	minimal fraction of the secondary gRNA(by default 0.1)
 		-f	filetype
 		\n";
